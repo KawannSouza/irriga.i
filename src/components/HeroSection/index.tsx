@@ -13,8 +13,9 @@ const HeroSection = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-              Irriga.ai é a plataforma de irrigação inteligente que transforma a incerteza do campo em{" "}
-              <span className="font-semibold text-green-700">lucro e segurança</span> para o pequeno agricultor.
+              Irriga.ai é a plataforma de monitoramento inteligente do solo que transforma a incerteza do 
+              campo em <span className="font-semibold text-green-700">lucro e segurança</span> para o 
+              pequeno agricultor, analisando dados de umidade e nutrientes para decisões mais precisas.
             </p>
             
             <Button size="lg" className="text-lg px-8 py-6 h-auto bg-gradient-to-r from-[#8AC13F] to-[#52A84D]">
