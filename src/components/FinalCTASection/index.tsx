@@ -3,7 +3,7 @@ import { Sparkles, ArrowRight } from "lucide-react";
 
 const FinalCTASection = () => {
   return (
-    <section className="py-16 lg:py-24 bg-gradient-to-r from-[#8AC13F] to-[#52A84D] text-primary-foreground">
+    <section className="py-16 lg:py-24 bg-gradient-to-r from-[#8AC13F] to-[#52A84D] text-primary-foreground overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center space-y-12">
           <div className="space-y-6">
@@ -25,10 +25,9 @@ const FinalCTASection = () => {
             </p>
           </div>
           
-          <div className="space-y-6">
+          <div className="space-y-6 p-1">
             <Button
-              size="lg" 
-              className="text-xl px-12 py-8 h-auto group bg-gradient-to-r from-[#fafcf6] to-[#d6ffd4] text-green-800"
+              className="text-md px-12 w-full max-w-[350px] py-8 h-auto group bg-gradient-to-r from-[#fafcf6] to-[#d6ffd4] text-green-800"
             >
               <a href="https://w.app/ynwfuz">QUERO FAZER PARTE DA REVOLUÇÃO</a>
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />

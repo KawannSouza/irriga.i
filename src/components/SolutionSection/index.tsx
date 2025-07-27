@@ -32,7 +32,7 @@ const SolutionSection = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-foreground">Sensor Inteligente</h4>
-                  <p className="text-muted-foreground">Monitora umidade, pH e temperatura do solo</p>
+                  <p className="text-muted-foreground">Monitora umidade e pH do solo</p>
                 </div>
               </div>
               
